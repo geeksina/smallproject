@@ -1,0 +1,18 @@
+  #include <stdio.h>
+
+int main()
+{
+        int x,y;
+        printf("please inter two integer\n");
+        scanf("%d",&x);
+        scanf("%d",&y);
+        if(x>y)
+        {
+                printf("%d is max number\n",x);
+        }else if(x<y)
+        {
+                printf("%d is max number\n",y);
+
+        }
+        return 0;
+}   
