@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+        int x,y,z,max;
+        printf("enter 3 integer\n");
+        scanf("%d",&x);
+
+        scanf("%d",&y);
+        scanf("%d",&z);
+        max=x;
+        if(max<y)
+        {
+                max=y;
+                if(max<z)
+                max=z;
+        }
+        else if(max>y)
+        {
+                if(max<z)
+                max=z;
+        }
+        printf("%d is max of 3 integer\n",max);
+        return 0;
+}
